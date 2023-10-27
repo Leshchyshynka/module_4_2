@@ -1,0 +1,93 @@
+extends common/layout
+
+block content
+
+main
+  section
+    h1.section-header How Dreamshare works?
+    .step-card
+      .step-card-item.step_1
+        // <img src="./img/Step_1_image.png" alt="">
+        .step-card-item-descr
+          button STEP 1
+          h1 Sed leo enim, condimentum
+          p
+            | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit
+            | amet facilisis.
+      .step-card-item.step_2
+        // <img src="./img/Step_1_image_1.png" alt="">
+        .step-card-item-descr
+          button STEP 2
+          h1 Morbi velit risus
+          p
+            | Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.
+      .step-card-item.step_3
+        // <img src="./img/Step_1_image_2.png" alt="">
+        .step-card-item-descr
+          button STEP 3
+          h1 Sed leo enim, condimentum
+          p
+            | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit
+            | amet facilisis.
+  section.second-section
+    h1.section-header Meet a partner for your best holiday
+    .person
+      .person-card.person-card-margin
+        img(src='./img/Avatar (2).png' alt='')
+        h2 Bradley Hunter
+        p Based in Chicago. I love playing tennis and loud music.
+      .person-card.person-card-margin
+        img(src='./img/Avatar (1).png' alt='')
+        h2 Marie Bennett
+        p Currently living in Colorado. Lover of art, languages and travelling.
+      .person-card
+        img(src='./img/Avatar (3).png' alt='')
+        h2 Diana Wells
+        p
+          | Living in Athens, Greece. I love black and white classics, chillout music and green tea.
+      .person-card
+        img(src='./img/Avatar (4).png' alt='')
+        h2 Christopher Piercer
+        p Star Wars fanatic. I have a persistent enthusiasm to create new things.
+    button.btn-partners See other partners
+  section
+    h1.section-header Discover holiday activity ideas
+    .activities
+      .activities-item.act_1
+        // <img src="./img/Bitmap (3).png" alt="">
+        .act-par
+          p Sports and Activis
+      .activities-item.act_2
+        // <img src="./img/Bitmap (2).png" alt="">
+        .act-par
+          p Wellness and Health
+      .activities-item.act_3
+        // <img src="./img/Bitmap (4).png" alt="">
+        .act-par
+          p
+            | Extreme Sports
+            | and Expeditions
+      .activities-item.act_4
+        // <img src="./img/Bitmap (5).png" alt="">
+        .act-par
+          p Games
+      .activities-item.act_5.img-cultural
+        // <img src="./img/Bitmap (6).png" alt="">
+        .act-par
+          p Culture and Education
+      .activities-item.act_6.img-cultural.last
+        // <img src="./img/Bitmap (7).png" alt="">
+        .act-par
+          p Enjomet and Relaxation
+      .activities-item.act_7.last
+        // <img src="./img/Bitmap (8).png" alt="">
+        .act-par
+          p Trevelling
+  section
+    h1.section-header Crate your holiday activity
+    .form
+      h2 Hi! What are your holiday interests?
+      .form-items
+        input(type='text' name='interests' placeholder='Enter your insterests')
+        button Search partners
+hr
